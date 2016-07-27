@@ -1,0 +1,165 @@
+html {
+	background: #606060;
+	color: #C8C8C8;
+	font-weight: 200;
+}
+
+.container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+nav {
+	text-decoration: none;
+	padding: 2% 0%;
+}
+
+nav ul {
+	list-style: none;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 200;
+
+}
+
+nav li:hover {
+	border-bottom: 3px solid #99FFFF;
+}
+
+.active {
+	border-bottom: 3px solid #99FFFF;
+}
+
+img {
+	max-width: 100%;
+}
+
+.img-main {
+	margin-left: auto;
+	padding: 2%;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+.paragraph {
+	position: relative;
+}
+
+.paragraph1,
+.paragraph2 {
+	float: left;
+	max-width: 30%;
+	text-align: left;
+	padding: 2%;
+}
+
+.paragraph-alt {
+	overflow: hidden;
+	max-width: 30%;
+	text-align: left;
+	padding: 2%;
+}
+
+h1 {
+	border-bottom: 2px solid #99FFFF;
+	padding-bottom: 2%;
+	color: #fff;
+	font-weight: 200;
+	font-size: 2em;
+}
+
+fieldset {
+	margin: 7% 0%;
+	display: inline-block;
+	width: 100%;
+	border: 2px solid #99FFFF;
+	padding: 0px 0px;
+	text-align: center;
+}
+
+legend {
+	color: #fff;
+	font-size:1.5em;
+}
+
+.img-gallery img {
+	padding: 40px;
+	max-width: 100%;
+}
+
+*.button {
+	border: #fff solid 2px;
+	border-radius: 5px;
+	padding: 5px 30px;
+	text-decoration: none;
+	margin-top: 4%;
+	color: #fff;
+	*text-transform: uppercase;
+	font-weight: 200;
+	font-size: .9em;
+}
+.button:hover {
+	opacity: 0.5;
+}
+*/
+
+.bottom-padding {
+	padding: 3%;
+}
+
+@media screen and (max-width: 650px) {
+	nav {
+		background: #606060;
+	}
+
+	nav ul {
+		padding: 0px;
+		overflow: hidden;
+		background: #606060;
+	}
+
+	nav li {
+		width: 100%;
+		padding-left: 0px;
+		background: #606060;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 200;
+		letter-spacing: 2px;
+	}
+
+	nav li:hover {
+		opacity: 0.9;
+	}
+
+	.paragraph1,
+	.paragraph2,
+	.paragraph-alt {
+		float: none;
+		overflow: visible;
+		display: block;
+		max-width: 100%;
+		padding: 2%;
+	}
+
+	.img-gallery img {
+		display: inline;
+		max-width: 100%;
+	}
+
+	fieldset {
+		max-width: 100%;
+	}
+}

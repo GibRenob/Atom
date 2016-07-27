@@ -1,0 +1,47 @@
+.buttonJS {
+	position:relative;
+	width: 100px;
+	top:15%;
+	text-align: center;
+	margin:auto;
+	background-color: red;
+	color:white;
+	border-radius:5px;
+}
+
+.buttonJS2 {
+	position:relative;
+	width: 100px;
+	top:30%;
+	text-align: center;
+	margin:auto;
+	background-color: red;
+	color:white;
+	border-radius:5px;
+}
+
+.buttonJS3 {
+	position:relative;
+	width: 100px;
+	top:45%;
+	text-align: center;
+	margin:auto;
+	background-color: red;
+	color:white;
+	border-radius:5px;
+}
+
+.triggered-h1 {
+	position:relative;
+	top:60%;
+	text-align: center;
+	margin:auto;
+}
+
+.triggered-ul {
+	position:relative;
+	top:75%;
+	text-align: center;
+	margin:auto;
+	list-style-type: none;
+}
