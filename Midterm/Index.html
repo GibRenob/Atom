@@ -11,7 +11,6 @@
   async defer></script>
   <!-- end of Google Maps -->
   <script src="map.js"></script>
-  <script src="Geocode.js"></script>
   <script src="app.js"></script>
   <link rel="stylesheet" type="text/css" href="main.css">
 
@@ -37,19 +36,34 @@
 background ='https://myoshinovel.files.wordpress.com/2013/03/asteroid_heating_earth_iphone_5_backgrounds-hd.jpg'
 	<div class= "container">
       <p> Meteorite Landing Activty Tracker <p>
+        <h2> This tracker will illustrate Meteorite Landings around
+        </br> the world through the years 1880 to Present </h2>
         <!-- {{mCtrl.test}} to test the connection of the controller -->
 		<nav>
 			<ul>
 
 				<li class="active" ng-click= "mCtrl.yearRange()">Enter Year Range<br>
         <input placeholder= 'xxxx-xxxx' ng-model="mCtrl.year"></input</li>
-        <button> Enter </button>
-        <button> Refresh </button>
+        <FORM>
+          <INPUT TYPE="button" onClick="response.data" VALUE="Enter">
+        </FORM>
+        <FORM>
+          <INPUT TYPE="button" onClick="history.go(0)" VALUE="Refresh">
+        </FORM>
+
 
 				<!-- <li ng-click= "mCtrl.locLanded()">Location Landed<br>
-        <input  ng-model="mCtrl.locLanded"></input>
-				<li ng-click= "mCtrl.metName()">Meteorite Name<br>
-        <input ng-model="mCtrl.Name"></input> -->
+        <input  ng-model="mCtrl.locLanded"></input> -->
+
+				 <!-- <li ng-click= "mCtrl.metName()">Meteorite Name<br>
+        <input ng-model="mCtrl.Name"></input>
+        <FORM>
+          <INPUT TYPE="button" onClick="response.data" VALUE="Enter">
+        </FORM>ß
+        <FORM>
+          <INPUT TYPE="button" onClick="history.go(0)" VALUE="Refresh">
+        </FORM> -->
+
         <!-- <li ng-click = "mCtrl.metMass()">Meteorite Mass</li> -->
 
       </ul>

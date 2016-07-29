@@ -49,15 +49,6 @@ mCtrl.yearRange = function () {
     }
   })
 }
-function Enter () {
-
-
-}
-
-function Refresh () {
-  var Start = clear
-  var Stop = clear
-};
 
 // // Location Landed Button //
 // mCtrl.locLanded = function () {
@@ -76,9 +67,10 @@ function Refresh () {
 // }
 // })
 // }
-// // Name Button //
+// Name Button //
 // mCtrl.metName = function () {
-//   console.log ('Meteorite Name')
+//   var Start = (mCtrl.name.[0])
+//   // console.log ('Meteorite Name')
 //   MeteoriteFactory.apiCall ()
 //   .then (function (response) {
 //     // console.log(response.data)
@@ -86,11 +78,24 @@ function Refresh () {
 //   // console.log('Name', response.data[i].name)
 //       if (response.data[i].name === mCtrl.var) {
 //         // console.log('Name', response.data[i].name)
-//     }
+//         var targetName = pop(response.data[i].name)
+//
+//         function Marker() {
+//              var name = {name};
+//              var marker = new google.maps.Marker({
+//                position: myLatLng,
+//                map: map,
+//                icon: 'http://icons.iconarchive.com/icons/everaldo/crystal-clear/24/App-asteroids-icon.png'
+//
+//
+//              });
+//         }
+// //         Marker()
+// //     }
 //     }
 // })
 // }
-// mCtrl.metMass = function () {
+// // mCtrl.metMass = function () {
 //   console.log ('Meteorite Mass')
 //   MeteoriteFactory.apiCall ()
 //   .then(function (response) {
