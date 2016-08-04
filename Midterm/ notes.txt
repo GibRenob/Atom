@@ -1,4 +1,0 @@
-
-to plug into local host
-// python -m SimpleHTTPServer //
-// Google Maps API Key AIzaSyAYndsXbC9aOZvITujV4aht74QHuHjNRZA //
